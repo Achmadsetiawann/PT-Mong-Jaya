@@ -1,0 +1,9 @@
+export { default as Header } from './Header';
+export { default as Layout } from './Layout';
+export { default as Overview } from './Overview';
+export { default as Ourservice } from './Ourservice';
+export { default as Products } from './Products';
+export { default as PremiumOrder } from './PremiumOrder';
+export { default as Testimonial } from './Testimonial';
+export { default as Team } from './Team';
+export { default as GetInTouch } from './GetInTouch';
