@@ -8,6 +8,7 @@ import 'swiper/css/scrollbar';
 
 function Overview() {
     return (
+    <div className="bg-green-400 bg-opacity-75">
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
 
         {/* Image Overview */}
@@ -20,16 +21,16 @@ function Overview() {
             <div class="flex flex-col mb-5 lg:items-start items-center">
                 <div class="flex-grow">
                     <h1 class="text-gray-900 text-6xl title-font font-bold mb-5">Mong Jaya <span className = "text-indigo-500">Utama</span></h1>
-                    <p class="leading-relaxed text-base text-2xl font-light">Powerful User Experience Tool for Offer you industrial, Mining, Marine and Trucking Sector</p>
-                    <a class="mt-5 text-3xl font-medium text-yellow-500 inline-flex items-center">MORE THAN YOU NEEDS                   </a>
+                    <p class="leading-relaxed text-base text-2xl font-light mt-20">Powerful User Experience Tool for Offer you industrial, Mining, Marine and Trucking Sector</p>
+                    <a class="mt-20 text-3xl font-medium text-green-50 inline-flex items-center">MORE THAN YOU NEEDS                   </a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     )
 }
 
 export default Overview
-
 
 

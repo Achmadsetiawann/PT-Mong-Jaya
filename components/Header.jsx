@@ -7,7 +7,7 @@ const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div>
-			<nav className=" shadow-sm fixed w-full bg-green-50 z-10">
+			<nav className=" shadow-sm fixed w-full bg-purple-50 bg-opacity-25 z-10">
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
 						<div className="flex items-center  mx-20  justify-between w-full">
@@ -59,7 +59,7 @@ const Header = () => {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-black"
+										className="cursor-pointer bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-black"
 									>
 										Contact
 									</Link>
